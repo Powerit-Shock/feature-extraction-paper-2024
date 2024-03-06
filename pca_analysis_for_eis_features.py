@@ -82,7 +82,7 @@ fig=sns.pairplot(featuresToPlot,diag_kind="kde",\
              x_vars=["xofymax-intercept","diameter","tailhead-intercept","slope","shape","ymax"],\
              y_vars=["xofymax-intercept","diameter","tailhead-intercept","slope","shape","ymax"],\
              hue="pack",size=2, markers = ['o', "^","v","s","d","p"],corner=True)
-fig.savefig("Figures/Feautre_pairplot.png")
+fig.savefig("Figures/Feature_pairplot.png")
 
 """#PCA"""
 
@@ -130,5 +130,5 @@ for target, color,label in zip(targets,colors,labels):
                , c = color,marker=label
                , s = 50)
 ax.legend(targets,bbox_to_anchor=(1.05, 1), loc='upper left', borderaxespad=0)
-fig.savefig("Figures/Feautre_PCA.png")
+fig.savefig("Figures/Feature_PCA.png")
 
