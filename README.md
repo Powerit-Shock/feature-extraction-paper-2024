@@ -15,6 +15,11 @@ can be used for chemometric and/or machine learning.
 The PCA_analysis_for_EIS_features code loads parameterized data that was generated from the
 EIS_feature_extraction code and provides a principal component analysis (PCA). 
 
+Supporting Data can be found in the 3 subfolders
+1. Data - location raw data .csv files can be found
+2. Generated Features - location of extracted feature files
+3. Figures - location of figures generated from code
+
 #Credits
 Project Lead - Xueying Li Quinn 
 Project Manager - David Shock
