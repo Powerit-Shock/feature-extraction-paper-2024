@@ -1,0 +1,65 @@
+MEIS_230809_01
+System: Windows64
+Software Version: Squidstat User Interface v2.08.29.2022
+
+Plus1933, Channel 1
+Firmware version: August 3, 2022 Plus / Ace 2.4 firmware
+Firmware checksum: 2C5FB886
+Potentiostat Stability: Bandwidth Index = 3, Stability Factor = 0.
+
+IR Drop Compensation: 
+Uncompensated Resistance (Ohm): 0
+Compensation Level (0% - 100%): 0%
+
+Working Electrode Status:
+Working electrode is earth grounded.
+
+Data Sampling Options: 
+Maximum data averaging period: 1 s
+Alpha-Factor:  75%
+Minimum number of cycles: 2
+Show data sampled during experiment "quiet times":  false
+
+Show data sampled during experiment "rest times":  false
+Supplementary Notes
+Physical Parameters:
+Working Electrode Area (m2): 0
+Working Electrode Mass (g): 0
+Working Electrode Volume (cm3): 0
+Battery Capacity (mAh): 0
+
+Reference Electrode:
+Other Reference Electrode: 
+Working Electrode vs. NHE (V): 0
+
+Other Notes:
+P180_03 cell 5 discharged cycle 3 end deg 24.8C
+
+
+Experiment Parameters:
+Step 1) Open Circuit Potential
+
+Duration: 1 min
+Sampling interval: 5 s
+
+Ending Conditions
+
+Maximum Potential: N/A
+Minimum Potential: N/A
+Minimum potential rate of change: N/A
+Append data to the last CSV file that has matching column headers  No
+Execute 1 time(s)
+
+Step 2) Potentiostatic EIS
+
+Starting frequency: 1000 kHz
+Ending frequency: 500 mHz
+Steps per decade: 10  
+DC bias potential: 0 V
+with respect to: open circuit
+AC excitation amplitude: 10 mV 
+Append data to the last CSV file that has matching column headers  No
+Execute 1 time(s)
+
+
+
